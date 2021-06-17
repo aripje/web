@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+.wrapper
+{
+    width: 1170px;
+
+    margin:auto;
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/home.jpg);
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-position: cover;
+    background-size: center center;
+    position: relative;
+}
+.nav__area
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav__area li
+{
+    display: inline-block;
+}
+.nav__area li a
+{
+    transition: border-width .3s linear;
+    border: 3px solid #fff;
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:poppins;
+    font-size: 14px;
+}
+.nav__area li a:hover
+{
+    background: #fff;
+    border-width: 5px;
+    color: #333;
+}
+.logo img
+{
+    width: 100px;
+    float: left;
+    height: 250px;
+}
+.logo img:hover
+{
+    background: aquamarine;
+    color:aquamarine;
+}
+.uitm img
+{
+    background-color: white;
+    width: 230px;
+    float: left;
+    height: 70px;
+}
+.marquee
+{
+    color: yellow;
+}
+
+.welcome__text
+{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome__text
+{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.welcome__text h1
+{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.welcome__text a
+{
+    border: 3px solid rgb(255, 255, 255);
+    transition: border-width .3s linear;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome__text a:hover
+{
+    border-width: 5px;
+    background: red;
+    color: #fff;
+}
