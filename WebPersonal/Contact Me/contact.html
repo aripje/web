@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="contact.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
+
+    <!---Navigation Bar-->
+    <body>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#">Contact <span>Me</span></a></div>
+                <ul class="menu">
+                    <li><a href="file:///C:/xampp/htdocs/WebPersonal/Home/index.html">HOME</a></li>
+                    <li><a href="file:///C:/xampp/htdocs/WebPersonal/Navigation/nav.html#">ABOUT ME</a></li>
+                    <li><a href="file:///C:/xampp/htdocs/WebPersonal/My%20best%20photo/photogallery.html">MY PHOTO</a></li>
+                    <li><a href="file:///C:/xampp/htdocs/WebPersonal/Contact%20Me/contact.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container">
+                <div class="contactinfo">
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul class="info">
+                            <li>
+                                <span><img src="img/location.jpg"></span>
+                                <span>Jalan Lili 1<br>
+                                    Saujana Utama, Sg Buloh<br>
+                                    Selangor, Malaysia</span>
+                            </li>
+                            <li>
+                                <span><img src="img/mail.png"></span>
+                                <span>arifnajhan06@gmail.com</span>
+                            </li>
+                            <li>
+                                <span><img src="img/call.png"></span>
+                                <span>0194070059</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/arif.najhan.92"><img src="img/fb.png"></a></li>
+                        <li><a href="https://www.instagram.com/ni_aripp/"><img src="img/ig.png"></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="contactform">
+                    <h2>Send Mesaage</h2>
+                    <div class="formbox">
+                        <div class="inputbox w50">
+                            <input type="text" name="" required>
+                            <span>First Name:</span>
+                        </div>
+                        <div class="inputbox w50">
+                            <input type="text" name="" required>
+                            <span>Last Name:</span>
+                        </div>
+                        <div class="inputbox w50">
+                            <input type="text" name="" required>
+                            <span>Email Address:</span>
+                        </div>
+                        <div class="inputbox w50">
+                            <input type="text" name="" required>
+                            <span>Mobile Number:</span>
+                        </div>
+                        <div class="inputbox w100">
+                        <textarea name="" required></textarea>
+                            <span>Write Your Message Here:</span>
+                        </div>
+                        <div>
+                            <form id = "gender">
+                                <p>Please select your gender:</p>
+                                <input type="radio" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="radio" name="gender" value="female">
+                                <label for="female">Female</label><br><br><br>
+                            </form>
+                        </div>
+                        <div>
+                            <form id = "feedback">
+                                <p>What do you like about our website?</p>
+                                <input type="checkbox" name="feedback" value="Good">
+                                <label for="Good">Its easy to navigate</label><br>
+                                <input type="checkbox" name="feedback" value="Bad">
+                                <label for="Bad">The information is easy to find</label><br>
+                                <input type="checkbox" name="feedback" value="Bad">
+                                <label for="Bad">The use of colour on this website looks <br>attractive</label>
+                            </form>
+                        </div>
+                         <div class="inputbox w100">
+                            <input type="submit"  class="contact-form-btn" onclick="myfunction()" value="Send">
+                            <script>
+                            function myfunction()
+                            {
+                                alert("Your message have submitted ");
+                            }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="contact.js"></script>
+    </body>
+</html>
